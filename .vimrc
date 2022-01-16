@@ -18,20 +18,13 @@ set splitright
 set guicursor=i:block
 
 set colorcolumn=100
-highlight ColorColumn ctermbg=0 guibg=grey
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'airblade/vim-gitgutter' 
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 call plug#end()
-
-let g:gitgutter_sign_added = '✚'
-let g:gitgutter_sign_modified = '✹'
-let g:gitgutter_sign_removed = '-'
-let g:gitgutter_sign_removed_first_line = '-'
-let g:gitgutter_sign_modified_removed = '-'
 
 let mapleader = " "
 
