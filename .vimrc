@@ -28,7 +28,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 
 call plug#end()
 
-let netrw_liststyle=3;
+let netrw_liststyle=3
 
 let mapleader = " "
 
