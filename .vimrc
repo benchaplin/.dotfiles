@@ -28,7 +28,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 
 call plug#end()
 
-let netrw_liststyle=3
+let netrw_liststyle = 3
+let netrw_bufsettings = 'nu'
 
 let mapleader = " "
 
@@ -57,3 +58,4 @@ nnoremap <leader>o o<esc>
 nnoremap <leader><s-o> <s-o><esc>
 
 nnoremap <leader>mdp :MarkdownPreview<cr>
+
