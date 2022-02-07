@@ -24,12 +24,20 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
+Plug 'lervag/vimtex'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 call plug#end()
 
 let netrw_liststyle = 3
 let netrw_bufsettings = 'nu'
+
+let g:vimtex_view_method = 'zathura'
+
+let g:snipMate = { 'snippet_version' : 1 }
 
 let mapleader = " "
 
@@ -58,4 +66,3 @@ nnoremap <leader>o o<esc>
 nnoremap <leader><s-o> <s-o><esc>
 
 nnoremap <leader>mdp :MarkdownPreview<cr>
-
