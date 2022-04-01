@@ -28,7 +28,6 @@ Plug 'lervag/vimtex'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 call plug#end()
 
@@ -65,4 +64,3 @@ nnoremap <leader>pv <c-w>v<bar><c-w>h<bar>:Ex<bar>:vertical resize 40<cr>
 nnoremap <leader>o o<esc>
 nnoremap <leader><s-o> <s-o><esc>
 
-nnoremap <leader>mdp :MarkdownPreview<cr>
