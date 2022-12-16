@@ -20,3 +20,5 @@ vim.opt.signcolumn = "yes"
 
 netrw_liststyle = 3
 netrw_bufsettings = "nu"
+
+vim.g["vimtex_view_method"] = "zathura"

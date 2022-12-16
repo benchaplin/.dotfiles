@@ -18,6 +18,9 @@ vim.g.mapleader = " "
 
 keymap("i", "kj", "<c-c>")
 
+keymap("t", "kj", "<c-\\><c-n>")
+keymap("n", "<leader>t", ":terminal<cr>")
+
 keymap("n", "<leader>w", ":w!<cr>")
 keymap("n", "<leader>q", ":q!<cr>")
 
@@ -25,6 +28,7 @@ keymap("n", "<leader>o", "o<c-c>")
 keymap("n", "<leader><s-o>", "<s-o><c-c>")
 
 keymap("n", "<leader>v", "<c-w>v<cr>")
+keymap("n", "<leader>s", "<c-w>s<cr>")
 keymap("n", "<leader>l", "<c-w>l<cr>")
 keymap("n", "<leader>h", "<c-w>h<cr>")
 keymap("n", "<leader>k", "<c-w>k<cr>")

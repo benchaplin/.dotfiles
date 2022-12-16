@@ -13,6 +13,7 @@ set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
 set undofile
+set hlsearch
 set incsearch
 set splitright
 set guicursor=i:block
