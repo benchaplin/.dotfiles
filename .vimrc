@@ -18,24 +18,10 @@ set incsearch
 set splitright
 set guicursor=i:block
 
-set colorcolumn=100
-highlight ColorColumn ctermbg=0 guibg=lightgrey
-
-call plug#begin('~/.vim/plugged')
-
-Plug 'lervag/vimtex'
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'tomtom/tlib_vim'
-Plug 'garbas/vim-snipmate'
-
-call plug#end()
+set colorcolumn=120
 
 let netrw_liststyle = 3
 let netrw_bufsettings = 'nu'
-
-let g:vimtex_view_method = 'zathura'
-
-let g:snipMate = { 'snippet_version' : 1 }
 
 let mapleader = " "
 
